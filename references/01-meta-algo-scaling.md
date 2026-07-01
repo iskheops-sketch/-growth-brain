@@ -38,3 +38,10 @@ Envoyer de la bonne data server-side (CAPI) = bien pour l'optimisation long term
 - **Ne PAS trouver des winners via le média-buying** — c'est de la créa. Le média-buying améliore la perf de ~10-50 % max.
 - Ne pas laisser de "creative enhancements" / bullshit activés au niveau ad set.
 - ⚠️ CPM qui s'effondre soudain (ex. -90 %) = **mauvais signe** (Meta baisse la qualité du trafic), pas une aubaine.
+
+## Signal quality avancé : nourrir le pixel sur les leads QUALIFIÉS (Valère, high-ticket 350k€/mo)
+Meta optimise sur la data que tu lui renvoies. Si tu déclenches le pixel sur **tout** lead (ou toute page de confirmation), tu l'entraînes sur du bruit (bots, `test@gmail`, funnel-hackers). Le levier = **ne feed le pixel QUE sur les leads réellement qualifiés/closés.**
+- **Méthode** : zapper les réponses de qualif (Zapier) → **LLM (Claude) juge "qualifié ?"** (prompt strict : temps de réponse <20s = bot, email bidon, budget insuffisant, no-show…) → si oui, **fire le pixel/CAPI** (hashé) avec l'attribution complète (email, phone, campaign/adset/ad, fbclid, click date, score) via un outil type **Hyros** (attribution à la créa/au clic).
+- Délai OK (qualif 3-5-7 j après le call) : les campagnes sont en 1-click-7-day. CRM back-end (Airtable) : move qualifié/closé → trigger conditionnel.
+- ⚠️ Tactique de **scaling** (>1k€/j adspend), pas pour valider un funnel de zéro.
+- 🎯 **GYPS** : on a déjà le CAPI Lead/Purchase + le miroir InitiateCheckout. Prochain cran (quand volume) : **scorer les leads** (via les réponses quiz + Claude) et ne renvoyer en priorité que le signal "high-intent" → meilleure optimisation Meta. On a déjà Claude branché (`/api/admin/avatar-report`) → réutilisable pour un lead-scoring.

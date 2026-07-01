@@ -3,8 +3,8 @@ name: growth-brain
 description: Cerveau growth distillé du second brain de l'utilisateur (Meta ads, funnels, CRO, copywriting, research). Playbook opérationnel pour lancer/diagnostiquer/scaler des campagnes Meta et des tunnels e-com/info à haute conversion. Couvre l'algo Meta (retrieval→auction, Andromeda, creative=targeting, broad), la stratégie créa (net-new concepts vs variations, bigger swings, native statics, formats), le testing & scaling (budgets, KPIs de cut, 1 concept/ad set), le diagnostic par la data (CPC/CTR/CPM cibles, EPV, add-to-cart 10% / ATC→purchase 30%, "test your checkout"), les funnels (quiz, advertorial, paywall simplifié, subscription vs one-time), le copywriting (savage copy, OG sales letters, seeding, pré-handling objections) et la research avatar (produit 2026, AI 80% research, foundational docs). Use when the user asks about "meta ads", "facebook ads", "publicité facebook", "scaler mes ads", "pourquoi mes ads ne convertissent pas", "creative testing", "ad account structure", "CPM trop haut", "broad targeting", "quiz funnel", "advertorial", "paywall", "copywriting", "sales letter", "hook", "angle", "product research", "avatar", "CRO", "add to cart no sales", "breakeven ROAS", "quand couper une ad", or works on the GYPS campaign/funnel. Complète (ne remplace pas) le skill quiz-funnel-expert pour le détail quiz/paywall.
 license: MIT
 metadata:
-  version: 1.0.0
-  source: second brain iCloud (Jay/Learning) — 36 notes marketing/growth
+  version: 1.1.0
+  source: second brain iCloud (Jay/Learning) — 38 notes marketing/growth
 ---
 
 # Growth Brain
@@ -15,6 +15,7 @@ Playbook growth **opérationnel**, distillé de ~90k mots de notes (créateurs e
 
 ## Thèse centrale (à imprimer dans la mémoire de l'agent)
 
+0. **Le marketing = CONTRAST.** Ne pas "faire mieux", mais **ne ressembler à personne** (faire l'opposé de tout ce que le marché consomme) pour casser le pattern — PUIS **disguise** (advertorial/quiz/native = vendre sans que ça ressemble à de la vente). Marché : **purple ocean** (marché prouvé + segment hyper-spécifique possédé à 100 %). Voir [07](references/07-strategy-mindset.md).
 1. **La créa EST le ciblage.** Post-Andromeda, Meta lit la créa (hook, format, démographie montrée, copy, script, landing) pour décider à qui montrer l'ad. → Run **broad**, Advantage+, ~0 targeting manuel (au plus 1 exclusion acheteurs). Arrête de bidouiller les audiences.
 2. **Média-buying ≠ trouver des winners.** Sous ~3-5k$/j, la structure d'ad account et le média-buying ne sont PAS le constraint. Le constraint = **trouver des créas gagnantes**. Pense en entrepreneur, pas en média-buyer.
 3. **Facebook n'est pas une mystery box.** Un mauvais ROAS a une cause lisible dans la data (ad-side vs funnel-side). On diagnostique, on ne « change d'angle au feeling ».
@@ -98,8 +99,9 @@ Playbook growth **opérationnel**, distillé de ~90k mots de notes (créateurs e
 - **[02-creative-strategy.md](references/02-creative-strategy.md)** — winning sales message, formats × marché, native statics, post-Andromeda (medium-TAM), AI ads (workflow Higgsfield+Claude+NanoBanana/Kling), hooks, CPMs, broad.
 - **[03-funnel-quiz-paywall.md](references/03-funnel-quiz-paywall.md)** — quiz (2 méthodes, voir aussi quiz-funnel-expert), advertorial (headline 90%, WIIFM, "sans", unique mechanism, twist the knife), paywall simplifié (Superwall +111%), subscription vs OTP.
 - **[04-copywriting.md](references/04-copywriting.md)** — "arguments not words" (Agora/E5), méthode Halbert/copyworking, croyances nécessaires, unique mechanism.
-- **[05-research-avatar.md](references/05-research-avatar.md)** — money's in the research, AI 80-90%, Foundational Docs SOP (research/avatar/offer/beliefs), produit gagnant (painful problem, AOV, marges 3× COGS).
+- **[05-research-avatar.md](references/05-research-avatar.md)** — money's in the research, AI 80-90%, Foundational Docs SOP (research/avatar/offer/beliefs), produit gagnant (painful problem, AOV, marges 3× COGS), 4 variables (marché/produit/ads/funnel).
+- **[07-strategy-mindset.md](references/07-strategy-mindset.md)** — le méta : contrast, disguise, purple ocean, mass desire, 5 universal truths, copy≠content, VOC, swipe philosophy, hook (PIG), économics 3 secteurs + LTV:CAC.
 
 ## Couverture & upgrade
-**v1.0** : distille ~20 des 36 notes du vault (tous les thèmes couverts). **Pas encore foldées** (à ajouter en v1.1+) : `8 years of marketing advice` (16k), `claude code CRO marketing` (11k), `Breaking Down OG Sales Letters` (5k), `how to master any skill`, `winning products are a lie`, `how to print with a sh*tty product`, `Comment avoir des Leads ULTRA Qualifiés`, `how long should you test`, `one angle one ad account`, `why the US market is the most competitive`, `how to unf*ck your facebook ads`.
+**v1.1** : distille l'essentiel des 38 notes du vault (7 références, tous les thèmes). Notes intégrées incl. les grosses (`8 years of marketing advice`, `Neuroscience`, `Breaking Down OG Sales Letters`, `Comment avoir des Leads ULTRA Qualifiés`, `winning products are a lie`, `how to print money with AI`, etc.). Foldées **légèrement** (essence, pas verbatim) : `claude code CRO marketing` (rant identité/advertorial → effet parapluie), `how to master any skill` (reps/feedback loop = déjà dans les 5 universal truths).
 **Source de vérité = vault iCloud** `Obsidian Vault/Jay/Learning/`. Pour upgrader : lire les nouvelles notes → distiller dans la ref thématique adéquate → bump la version. Ne jamais copier les transcripts bruts ici (le skill = distillation actionnable, pas une archive).
